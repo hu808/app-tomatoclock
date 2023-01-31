@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_cook"
+    tools:context=".plan">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="208dp"
+        android:layout_height="38dp"
+        android:background="#40918B77"
+        android:ems="10"
+        android:hint="請輸入"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/mainListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/import1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6D677"
+        android:text="新增"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <Button
+        android:id="@+id/plantodone"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:background="#F6CDDB"
+        android:text="檢視已完成任務"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/datePicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/datePick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6D677"
+        android:text="選擇日期"
+        android:textColor="#171516"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/import1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+        android:id="@+id/datePicked"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:background="#40918B77"
+        android:hint="請先選擇日期"
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="362dp"
+        android:layout_height="371dp"
+        android:layout_marginTop="216dp"
+        android:background="#B9FFFFFF"
+        android:cacheColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

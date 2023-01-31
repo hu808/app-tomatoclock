@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065377082854",
+    "firebase_url": "https://tomato-60dfb.firebaseio.com",
+    "project_id": "tomato-60dfb",
+    "storage_bucket": "tomato-60dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065377082854:android:a28d21a8d277622ea53a27",
+        "android_client_info": {
+          "package_name": "com.hhshs3440.potatoclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065377082854-olrihe7a1e2nur1klku2qhuoun8fv3am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hhshs3440.potatoclock",
+            "certificate_hash": "8777419b17e92849890ad18a7ce071cb9767d226"
+          }
+        },
+        {
+          "client_id": "1065377082854-17qdq7lsvs6qs0b6uj40njfert1r8i4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH_XEHeOvUwi8UlU4_C1Fjh7w5Jb2nUOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065377082854-17qdq7lsvs6qs0b6uj40njfert1r8i4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
